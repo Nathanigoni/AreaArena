@@ -1,0 +1,31 @@
+#fire-btn {
+  position: absolute;
+  right: 8%;
+  bottom: 14%;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(255, 60, 60, 0.5);
+  border: 2px solid #fff;
+  pointer-events: auto;
+  z-index: 20;
+}
+#hud {
+  position: absolute;
+  top: 10px; left: 10px;
+  color: #fff;
+  font: bold 14px Arial, sans-serif;
+  text-shadow: 0 1px 3px #000;
+  z-index: 30;
+  pointer-events: none;
+}
+#banner {
+  position: absolute;
+  top: 40%; width: 100%;
+  text-align: center;
+  color: #fff;
+  font: bold 40px Arial, sans-serif;
+  text-shadow: 0 2px 6px #000;
+  z-index: 40;
+  display: none;
+}
